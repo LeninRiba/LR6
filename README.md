@@ -5,33 +5,34 @@
 
 ## 1. Создание форка
 Создана копия в личное хранилище из https://github.com/Kurtyanik/LR6/
-[картинка 1]
+![Новый форк](./screens/screen2.jpg)
 
 ## 2. Установка Git
 Установка 
-[картинка 2]
+![Установщик Git](./screens/screen1.jpg)
 
 ## 3. Изменение имени и почты пользователя
 Команда для изменения имени пользователя:
 
 ```bash
-$ git config --global user.name "Группа 4317 Червоненко А.В."
+$ git config --global user.name "Группа 4317 Шахова А.Г."
 ```
 Команда для изменения почты пользователя:
 
 ```bash
-$ git config --global user.email "doritos7431@gmail.com"
+$ git config --global user.email "a.shakhova.gn@gmail.com"
 ```
-[картинка 3]
+![Изменение имени х почты](./screens/screen3.jpg)
 
 ## 4. Клонирование репозитория
 
 ```bash
-$ git clone https://github.com/lovandish/LR6
+$ git clone https://github.com/LeninRiba/LR6
 ```
 
 ## 5. Добавление нового файла
-[картинка 4]
+![Александр Гамильтон](./screens/screen4.jpg)
+
 
 ## 6. Добавление изменений в локальный репозиторий
 
@@ -47,7 +48,7 @@ $ git log --all –oneline
 
 *Результат работы команды*
 
-[картинка 6]
+![картинка 6](./screens/screen6.jpg)
 
 ## 8. Просмотр последних изменений
 
@@ -57,7 +58,7 @@ $ git log -1
 
 *Результат работы команды*
 
-[картинка 5]
+![картинка 5](./screens/screen5.jpg)
 
 ## 9. Решение конфликта и слияние веток
 
@@ -72,10 +73,15 @@ $ git merge branch1
 ```bash
 $ git branch -d branch1
 ```
-[картинка 7]
+![картинка 7](./screens/screen7.jpg)
 
 ## 11. Сделать изменения и зафиксировать их, оставляя комментарии, несколько раз.
-[картинка 8] [картинка 9] [картинка 10]
+Создание файлов
+![Heathers x Arcane](./screens/screen8.jpg)
+![MAX VERSTAPPEN](./screens/screen9.jpg)
+
+Комментарии к файлам
+![картинка 10](./screens/screen10.jpg)
 
 ## 12. Откат коммита
 Откат к предыдущему коммиту:
@@ -83,7 +89,8 @@ $ git branch -d branch1
 ```bash
 $ git revert 10e7b0c
 ```
-[картинка 11] 
+![картинка 11](./screens/screen11.jpg)
+
 ## 12. Создание ветки для отчета
 
 ```bash
@@ -95,8 +102,16 @@ $ git checkout -b report
 ```bash
 $ git log --pretty=format:"%h %ad %an %s" --date=short
 ```
-[картинка 12]
+![картинка 12](./screens/screen12.jpg)
+
 ## 14. История операций
 Список истории операций:
-+ 81fa03e 2024-10-23 lovandish Create CHEESECAKE
-
+75c61b9 - 21.11.2024 23:12:36 - Группа 4317 Шахова А.Г. - Revert "another file added"
+10e7b0c - 21.11.2024 22:58:17 - Группа 4317 Шахова А.Г. - another file added
+477af86 - 21.11.2024 22:53:10 - Группа 4317 Шахова А.Г. - 2 new files added
+e390080 - 21.11.2024 22:01:27 - Группа 4317 Шахова А.Г. - confict fixed
+9f9fc72 - 21.11.2024 20:45:08 - LeninRiba - Create Hamilton
+921f53b - 21.11.2020 20:09:49 - Kurtyanik - Обновление информации
+0f9f50d - 21.11.2020 20:08:33 - Kurtyanik - Заполнил файл
+c08a654 - 21.11.2020 20:02:16 - Kurtyanik - Файл создан пустым
+3c6e913 - 21.11.2020 19:58:20 - Kurtyanik - Initial commit
