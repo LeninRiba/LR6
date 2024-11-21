@@ -8,6 +8,8 @@
 ![Новый форк](./screens/screen2.jpg)
 
 ## 2. Установка Git
+Установка
+
 ![Установщик Git](./screens/screen1.jpg)
 
 ## 3. Изменение имени и почты пользователя
@@ -76,10 +78,12 @@ $ git branch -d branch1
 
 ## 11. Сделать изменения и зафиксировать их, оставляя комментарии, несколько раз.
 Создание файлов
+
 ![Heathers x Arcane](./screens/screen8.jpg)
 ![MAX VERSTAPPEN](./screens/screen9.jpg)
 
 Комментарии к файлам
+
 ![картинка 10](./screens/screen10.jpg)
 
 ## 12. Откат коммита
