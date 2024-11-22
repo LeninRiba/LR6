@@ -44,7 +44,7 @@ $ git pull
 ## 7. Получение данных для каждой из веток
 
 ```bash
-$ git log --all –oneline
+$ git log --all --oneline
 ```
 
 *Результат работы команды*
@@ -107,23 +107,19 @@ $ git log --pretty=format:"%h %ad %an %s" --date=short
 ```
 ![картинка 12](./screens/screen12.jpg)
 
-## 14. История операций
-Список истории операций:
+## 14. Лог команд
 
-75c61b9 - 21.11.2024 23:12:36 - Группа 4317 Шахова А.Г. - Revert "another file added"
-
-10e7b0c - 21.11.2024 22:58:17 - Группа 4317 Шахова А.Г. - another file added
-
-477af86 - 21.11.2024 22:53:10 - Группа 4317 Шахова А.Г. - 2 new files added
-
-e390080 - 21.11.2024 22:01:27 - Группа 4317 Шахова А.Г. - confict fixed
-
-9f9fc72 - 21.11.2024 20:45:08 - LeninRiba - Create Hamilton
-
-921f53b - 21.11.2020 20:09:49 - Kurtyanik - Обновление информации
-
-0f9f50d - 21.11.2020 20:08:33 - Kurtyanik - Заполнил файл
-
-c08a654 - 21.11.2020 20:02:16 - Kurtyanik - Файл создан пустым
-
-3c6e913 - 21.11.2020 19:58:20 - Kurtyanik - Initial commit
+```bash
+$ git config --global user.name 
+$ git config --global user.email
+$ git clone
+$ git pull
+$ git log --all --oneline
+$ git log -1
+$ git checkout master
+$ git merge branch1
+$ git branch -d branch1
+$ git revert
+$ git checkout -b report
+$ git log --pretty=format:"%h %ad %an %s" --date=short
+```
